@@ -1,0 +1,18 @@
+{
+  "type": "datasource",
+  "name": "SRI Infra Datasource",
+  "id": "anandsunder-sri-datasource",
+  "metrics": true,
+  "info": {
+    "description": "Grafana datasource for computing Spectral Resilience Index from infrastructure metrics",
+    "author": {"name": "Anand Sunder"},
+    "keywords": ["sri", "resilience", "infra", "observability"],
+    "logos": {"small": "img/logo.svg", "large": "img/logo.svg"},
+    "version": "0.0.1",
+    "updated": "2026-05-22"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=10.0.0",
+    "plugins": []
+  }
+}
